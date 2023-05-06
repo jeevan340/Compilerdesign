@@ -1,3 +1,15 @@
+question:
+ Write a LEX program to print all HTML tags in the input file.
+ Source program:
+ <html>
+<body>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+</body>
+</html>
+
+
+Program:
 %{
 int tags;
 %}
