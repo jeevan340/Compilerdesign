@@ -1,3 +1,7 @@
+Question:
+Write a LEX program to implement basic mathematical operations.
+
+Program:
 %{
 #undef yywrap
 #define yywrap() 1 
