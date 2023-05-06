@@ -1,3 +1,16 @@
+question:
+Write a LEX program to count the number of Macros defined and header files    included in the C program.
+Source program:
+#define PI 3.14   
+#include<stdio.h> 
+#include<conio.h>
+ void main()
+{
+int a,b,c = 30;
+printf("hello");
+}
+
+Program:
 %{
 int nmacro, nheader;
 %}
