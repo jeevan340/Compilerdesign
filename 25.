@@ -1,3 +1,18 @@
+question:
+Write a LEX program which adds line numbers to the given C program file and display the same in the standard output.
+
+source program:
+#define PI 3.14   
+#include<stdio.h> 
+#include<conio.h>
+   void main()
+{
+int a,b,c = 30;
+printf("hello");
+}
+
+
+program:
 %{
 int yylineno;
 %}
