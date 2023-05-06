@@ -1,3 +1,16 @@
+question:
+Implement Lexical Analyzer using FLEX (Fast Lexical Analyzer).  The program should separate the tokens in the given C program and display with appropriate caption.
+
+Source Program:
+#include<stdio.h> 
+void main()
+{
+int a,b,c = 30; 
+printf("hello");
+}
+
+
+Program:
 digit [0-9]
 letter [A-Za-z]
 %{
