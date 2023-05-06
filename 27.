@@ -1,3 +1,8 @@
+question:
+Write a LEX program to identify the capital words from the given input.
+
+
+Program:
 %%
 [A-Z]+[\t\n ] { printf("%s is a capital word\n",yytext); }
 .  ;
