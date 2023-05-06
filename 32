@@ -1,3 +1,7 @@
+Question:
+Write a LEX program to count the number of vowels in the given sentence.
+
+
 Program: (vowels.l)
 %{
     int vow_count=0;
