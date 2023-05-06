@@ -1,3 +1,15 @@
+question:
+Write a LEX program to print all the constants in the given C source program file.
+source program:
+#define P 314  
+#include<stdio.h> #include<conio.h>
+ void main()
+{
+            int a,b,c = 30;
+printf("hello");
+}
+
+program:
 digit [0-9]
 %{
 int cons=0;
