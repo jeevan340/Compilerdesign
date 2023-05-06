@@ -1,3 +1,7 @@
+Question:
+Write a LEX program to validate the URL.
+
+Program:
 %%
 ((http)|(ftp))s?:\/\/[a-zA-Z0-9](.[a-z])+(.[a-zA-Z0-9+=?]*)* {printf("\nURL Valid\n");}
 
