@@ -1,3 +1,8 @@
+Question:
+Write a LEX Program to check the email address is valid or not.
+
+
+program:
 %{
 int flag=0;
 %}
