@@ -1,3 +1,17 @@
+Question:
+Write a LEX program to count the number of comment lines in a given C program and eliminate them and write into another file.
+
+
+source program:
+#include<stdio.h> 
+int main()
+{
+int a,b,c; /*varible declaration*/ printf(“enter two numbers”); scanf(“%d %d”,&a,&b); c=a+b;//adding two numbers printf(“sum is %d”,c);
+return 0;
+}
+
+
+Program:
 %{
 int com=0;
 %}
