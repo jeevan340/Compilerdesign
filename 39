@@ -1,3 +1,8 @@
+Question:
+Write a LEX program to check whether the given input is digit or not.
+
+
+Program:
 %%
 [0-9]+ {printf("\nValid digit \n");} 
 .* printf("\nInvalid digit\n");
